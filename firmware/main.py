@@ -13,8 +13,11 @@ keyboard.matrix = KeysScanner(
     pull=True,
 )
 
+# Key 1: A (Add Component)
+# Key 2: W (Add Wire)
+# Key 3: P (Add Power/GND - KiCad uses 'P' for the power menu)
 keyboard.keymap = [
-    [KC.LCTRL(KC.C), KC.LCTRL(KC.V), KC.LCTRL(KC.Z)]
+    [KC.A, KC.W, KC.P]
 ]
 
 if __name__ == '__main__':
